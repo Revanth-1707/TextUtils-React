@@ -14,10 +14,10 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse mx-10" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item mx-1">
-              <Link className="nav-link" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" aria-current="page" to="/TextUtils-website-React">Home</Link>
             </li>
             <li className="nav-item mx-1">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="TextUtils-website-React/about">About</Link>
             </li>
           </ul>
           {/* <div className='d-flex'>

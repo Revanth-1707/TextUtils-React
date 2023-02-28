@@ -52,8 +52,8 @@ function App() {
     <Alert alert={alert}/>
     <div className="container my-3">
       <Routes>
-        <Route exact path={'/'} element={<Textfrom showAlert={showAlert} heading="Try TextUtils - Word counter, Character Counter,Remove extra spaces" mode={mode}/>}></Route>
-        <Route exact path={'/about'} element={<About mode={mode}/>} ></Route>
+        <Route exact path={'/TextUtils-website-React'} element={<Textfrom showAlert={showAlert} heading="Try TextUtils - Word counter, Character Counter,Remove extra spaces" mode={mode}/>}></Route>
+        <Route exact path={'/TextUtils-website-React/about'} element={<About mode={mode}/>} ></Route>
       </Routes>
   
       {/* <About/> */}
